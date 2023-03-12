@@ -1,0 +1,76 @@
+/* колір основного тексту #2E2F42 */
+/* вторинний колір тексту #434455 */
+
+/* акцент #4D5AE5 */
+/* основний колір тла #FFFFFF */
+/* вторинний колір тла #F4F4FD */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2E2F42;
+  --accent-color: #4D5AE5;
+  --primary-bg-color: #FFFFFF;
+}
+
+.body {
+  background-color: #FFFFFF;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav-list .link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Examples */
+
+.work-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--accent-color);
+  background-color: var(--primary-bg-color);
+}
