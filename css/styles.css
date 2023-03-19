@@ -11,7 +11,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .body {
-  background: var(--main-bgr-color);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .list {
@@ -21,17 +22,9 @@ body {
 .link {
   text-decoration: none;
 }
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .button {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -59,19 +52,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 /** ------------- HEADER ------------ */
 
@@ -83,12 +63,17 @@ body {
 }
 
 .header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-text-color);
 }
 
-.logo-colortext {
-  color: var(--accent-color);
-}
 .header-list {
 }
 .header-item {
@@ -103,13 +88,13 @@ body {
 }
 
 .header-contacts {
+  font-style: normal;
 }
 .contacts-list {
 }
 .contacts-item {
 }
 .contacts-link {
-  font-style: normal;
   color: var(--second-text-color);
 }
 .contacts-link:is(:hover, :focus) {
@@ -195,11 +180,17 @@ body {
   background: var(--main-text-color);
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--second-bgr-color);
 }
-.logo-colortext {
-  color: var(--accent-color);
-}
+
 .footer-text {
   color: var(--second-bgr-color);
 }
@@ -209,12 +200,18 @@ body {
 }
 .filters-list {
 }
-.list {
-}
 .filters-item {
 }
 
 .filters-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--accent-color);
   background: var(--second-bgr-color);
 }
