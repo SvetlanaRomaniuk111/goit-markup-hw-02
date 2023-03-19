@@ -74,8 +74,7 @@ body {
   text-decoration: none;
   color: var(--accent-color);
 }
-.a.studio {
-  color: #2e2f42;
+.studio {
 }
 
 .header-list {
@@ -195,9 +194,7 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.studio {
-  color: var(--second-bgr-color);
-}
+
 .footer-text {
   color: var(--second-bgr-color);
 }
