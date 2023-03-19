@@ -74,6 +74,9 @@ body {
   text-decoration: none;
   color: var(--accent-color);
 }
+.header-logo.studio {
+  color: var(--main-text-color);
+}
 
 .header-list {
 }
@@ -192,7 +195,9 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-
+.studio {
+  color: var(--second-bgr-color);
+}
 .footer-text {
   color: var(--second-bgr-color);
 }
@@ -221,7 +226,8 @@ body {
   background: var(--second-bgr-color);
 }
 .filters-btn:is(:hover, :focus) {
-  color: var(--active-color);
+  color: var(--main-bgr-color);
+  background-color: var(--active-color);
 }
 .projects-list {
 }
