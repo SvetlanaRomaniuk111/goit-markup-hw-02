@@ -71,7 +71,8 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  text-decoration: none;
+  color: var(--accent-color);
 }
 
 .header-list {
@@ -129,6 +130,7 @@ body {
 .about {
 }
 .about-title {
+  visibility: hidden;
 }
 .about-list {
 }
@@ -188,7 +190,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-bgr-color);
+  color: var(--accent-color);
 }
 
 .footer-text {
@@ -197,6 +199,9 @@ body {
 
 /** --------------- PORTFOLIO ----------------- */
 .portfolio {
+}
+.portfolio-title {
+  visibility: hidden;
 }
 .filters-list {
 }
@@ -214,6 +219,9 @@ body {
   cursor: pointer;
   color: var(--accent-color);
   background: var(--second-bgr-color);
+}
+.filters-btn:is(:hover, :focus) {
+  color: var(--active-color);
 }
 .projects-list {
 }
